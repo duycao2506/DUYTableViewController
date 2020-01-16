@@ -1,0 +1,16 @@
+PODS:
+  - DUYTableViewController (0.1.0)
+
+DEPENDENCIES:
+  - DUYTableViewController (from `../`)
+
+EXTERNAL SOURCES:
+  DUYTableViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DUYTableViewController: f836c29bb73d8ddae43abce568064d106e63b12c
+
+PODFILE CHECKSUM: 6c607e367fcaa68fe250a869a9c4eb34fa5366c1
+
+COCOAPODS: 1.8.4

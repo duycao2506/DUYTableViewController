@@ -1,0 +1,6 @@
+framework module DUYTableViewController {
+  umbrella header "DUYTableViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

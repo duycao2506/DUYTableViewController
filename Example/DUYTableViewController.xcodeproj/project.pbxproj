@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B6513623D058D1009D42C0 /* DUYImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B6513223D058D0009D42C0 /* DUYImageTableViewCell.xib */; };
+		04B6513723D058D1009D42C0 /* DUYImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6513323D058D0009D42C0 /* DUYImageTableViewCell.swift */; };
+		04B6513823D058D1009D42C0 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6513423D058D1009D42C0 /* TestTableViewController.swift */; };
+		04B6513923D058D1009D42C0 /* TestTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6513523D058D1009D42C0 /* TestTableViewModel.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -28,13 +31,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C890089E068F6BD8CE831F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		04B6513223D058D0009D42C0 /* DUYImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DUYImageTableViewCell.xib; sourceTree = "<group>"; };
+		04B6513323D058D0009D42C0 /* DUYImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DUYImageTableViewCell.swift; sourceTree = "<group>"; };
+		04B6513423D058D1009D42C0 /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		04B6513523D058D1009D42C0 /* TestTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewModel.swift; sourceTree = "<group>"; };
+		3C890089E068F6BD8CE831F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		54579EC5A9129E4C761B87CF /* Pods-DUYTableViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUYTableViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-DUYTableViewController_Example/Pods-DUYTableViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		571C9FDB9B47DC184131CFDF /* DUYTableViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DUYTableViewController.podspec; path = ../DUYTableViewController.podspec; sourceTree = "<group>"; };
+		571C9FDB9B47DC184131CFDF /* DUYTableViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DUYTableViewController.podspec; path = ../DUYTableViewController.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DUYTableViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUYTableViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -45,7 +51,7 @@
 		A5EAB66CECB0C5B480746C42 /* Pods-DUYTableViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUYTableViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DUYTableViewController_Tests/Pods-DUYTableViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D155B7125E67D1684C6CFC /* Pods-DUYTableViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUYTableViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-DUYTableViewController_Tests/Pods-DUYTableViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BC56698AFEECD733F8EE8A8E /* Pods_DUYTableViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DUYTableViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C864CD4949A15E18AFA1F56D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C864CD4949A15E18AFA1F56D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D4B7B4DF64162AE2F288360B /* Pods_DUYTableViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DUYTableViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,7 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				04B6513323D058D0009D42C0 /* DUYImageTableViewCell.swift */,
+				04B6513223D058D0009D42C0 /* DUYImageTableViewCell.xib */,
+				04B6513423D058D1009D42C0 /* TestTableViewController.swift */,
+				04B6513523D058D1009D42C0 /* TestTableViewModel.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -156,7 +165,6 @@
 				A5EAB66CECB0C5B480746C42 /* Pods-DUYTableViewController_Tests.debug.xcconfig */,
 				B0D155B7125E67D1684C6CFC /* Pods-DUYTableViewController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +221,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = GVUH4TQN58;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = GVUH4TQN58;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +237,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +259,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				04B6513623D058D1009D42C0 /* DUYImageTableViewCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,8 +343,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				04B6513923D058D1009D42C0 /* TestTableViewModel.swift in Sources */,
+				04B6513723D058D1009D42C0 /* DUYImageTableViewCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				04B6513823D058D1009D42C0 /* TestTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,6 +492,7 @@
 			baseConfigurationReference = 54579EC5A9129E4C761B87CF /* Pods-DUYTableViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVUH4TQN58;
 				INFOPLIST_FILE = DUYTableViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +508,7 @@
 			baseConfigurationReference = 7BC60578E0821B0E7408B157 /* Pods-DUYTableViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVUH4TQN58;
 				INFOPLIST_FILE = DUYTableViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5EAB66CECB0C5B480746C42 /* Pods-DUYTableViewController_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GVUH4TQN58;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B0D155B7125E67D1684C6CFC /* Pods-DUYTableViewController_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GVUH4TQN58;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

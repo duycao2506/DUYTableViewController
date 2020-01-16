@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE100601E8F12E26890B9AA3A444513 /* DUYTableviewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882C80068BA788919395E2B386F0D211 /* DUYTableviewCellViewModel.swift */; };
+		0D755D268582DC52A826BF1825C93988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1DCD275F4DD2A986080837B779EFE265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		24AEF4C14398A9C5260BA5A40CD8014F /* Pods-DUYTableViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11816C6FEE16239AAD9503D441A947 /* Pods-DUYTableViewController_Tests-dummy.m */; };
+		29D2829645FE9D4AB284C056B53CBC7A /* DUYTableViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA66EB867E14FD6B13E7543A9A9C51B /* DUYTableViewController-dummy.m */; };
+		32399899AAA6924C4D68667F5111CF72 /* Pods-DUYTableViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CE33E467D53C58A230035C3019F1D4 /* Pods-DUYTableViewController_Example-dummy.m */; };
+		624FD832755C7EE8346094564F17BF92 /* DUYTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66E8A7282687E1A12CF7FAA4BADD755 /* DUYTableviewCell.swift */; };
+		65FA555D116DF3B160F8AE919D6B6AD1 /* Pods-DUYTableViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 864174247B87A4EEB5B386C87C0EC0DD /* Pods-DUYTableViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79646D48A2D979E1D8AB275B62158DC5 /* DUYTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0182D552DC08507B3844E94B05D37 /* DUYTableViewController.swift */; };
+		B3F92BE4C3422F018C6713C7BE4B7FD5 /* Pods-DUYTableViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2A6D19EB20AD1088E58848940FE77C /* Pods-DUYTableViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5A52DEB879F69407A9FB72748AE1F42 /* DUYTableViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73750F35F3D4A7705DB6AA17B8B6C4B6 /* DUYTableViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E854B6C6463421F3EFF3DED22DCE470B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264C4FC21BF26A422EB0F13BD10E682D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350C1F10BBF839C483A3FBE4C6CC4D04;
+			remoteInfo = "Pods-DUYTableViewController_Example";
+		};
+		C3341BF224511AB3C069BED8BD86A2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828184913D150B7CA3EEE16E91F325C9;
+			remoteInfo = DUYTableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CE33E467D53C58A230035C3019F1D4 /* Pods-DUYTableViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DUYTableViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		15D6AEDDFB09727FEE776C5EC8E56DAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2643806ACB5251A497281FF992132BD9 /* Pods_DUYTableViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DUYTableViewController_Example.framework; path = "Pods-DUYTableViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D4E74A41C760BEB509B433ECF949E36 /* DUYTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DUYTableViewController.framework; path = DUYTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6CC5234B3617EF05D017DF567D6D8A /* Pods-DUYTableViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DUYTableViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ED1965B774379EC61C35A8E175DAEEC /* DUYTableViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DUYTableViewController-Info.plist"; sourceTree = "<group>"; };
+		4A68CF14CA0B3A6550446C7F0F7C6D62 /* Pods-DUYTableViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DUYTableViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C11816C6FEE16239AAD9503D441A947 /* Pods-DUYTableViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DUYTableViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		682B5BB6AE90415AA76194F227F15B20 /* Pods-DUYTableViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DUYTableViewController_Example.modulemap"; sourceTree = "<group>"; };
+		6AE0182D552DC08507B3844E94B05D37 /* DUYTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DUYTableViewController.swift; path = DUYTableViewController/Classes/DUYTableViewController.swift; sourceTree = "<group>"; };
+		73750F35F3D4A7705DB6AA17B8B6C4B6 /* DUYTableViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DUYTableViewController-umbrella.h"; sourceTree = "<group>"; };
+		7AD6B3FC4EB229189C035950C5C59F75 /* Pods-DUYTableViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DUYTableViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7BA66EB867E14FD6B13E7543A9A9C51B /* DUYTableViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DUYTableViewController-dummy.m"; sourceTree = "<group>"; };
+		83172B31CFEC7F0DA6B04C20051790E4 /* DUYTableViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DUYTableViewController.modulemap; sourceTree = "<group>"; };
+		864174247B87A4EEB5B386C87C0EC0DD /* Pods-DUYTableViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DUYTableViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		882C80068BA788919395E2B386F0D211 /* DUYTableviewCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DUYTableviewCellViewModel.swift; path = DUYTableViewController/Classes/DUYTableviewCellViewModel.swift; sourceTree = "<group>"; };
+		95561769DBE5DE9DCF89B8CC57913EBE /* Pods-DUYTableViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DUYTableViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F73823E5A08CBAC4A363A6AEF3CDB87 /* Pods-DUYTableViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DUYTableViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A1C227E38D1E8679A79AFEE54D76E481 /* DUYTableViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DUYTableViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFDBAE229C4EB879EA9353B544ACDA67 /* Pods-DUYTableViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DUYTableViewController_Example-Info.plist"; sourceTree = "<group>"; };
+		B1185EB2FE5C5A22F2026807E80F70CA /* Pods_DUYTableViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DUYTableViewController_Tests.framework; path = "Pods-DUYTableViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE426CC3F73D1A0B872E7BB2FB57ABE /* Pods-DUYTableViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DUYTableViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C134E90C2E9DD9B21915B10610FFE659 /* DUYTableViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DUYTableViewController-prefix.pch"; sourceTree = "<group>"; };
+		C199E15093C736907E82AA779550FD6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C2183342593E79B1EB3A2A218FB37BAE /* Pods-DUYTableViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DUYTableViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCB22C4A5D4788E2AE3EF027445AD3A1 /* DUYTableViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DUYTableViewController.xcconfig; sourceTree = "<group>"; };
+		D66E8A7282687E1A12CF7FAA4BADD755 /* DUYTableviewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DUYTableviewCell.swift; path = DUYTableViewController/Classes/DUYTableviewCell.swift; sourceTree = "<group>"; };
+		DB794D150B979F00EC92F8260F49E776 /* Pods-DUYTableViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DUYTableViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0BEF0150B4978AAF22D53231095DD56 /* Pods-DUYTableViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DUYTableViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1CAAB917F30BDD3BB4FDE4B8B26E022 /* Pods-DUYTableViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DUYTableViewController_Tests-Info.plist"; sourceTree = "<group>"; };
+		F5097648DB35A4D6794681F4CFF46560 /* Pods-DUYTableViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DUYTableViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		FB2A6D19EB20AD1088E58848940FE77C /* Pods-DUYTableViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DUYTableViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5423B2D268AECA83E0148821A61DF5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E854B6C6463421F3EFF3DED22DCE470B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBB676426BBB8037D1C7E103411B9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D755D268582DC52A826BF1825C93988 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE81C4642CCCFA3F1A3B99709ECFCDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCD275F4DD2A986080837B779EFE265 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F2D990181D4E3AAAC41788CF93FC50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4E74A41C760BEB509B433ECF949E36 /* DUYTableViewController.framework */,
+				2643806ACB5251A497281FF992132BD9 /* Pods_DUYTableViewController_Example.framework */,
+				B1185EB2FE5C5A22F2026807E80F70CA /* Pods_DUYTableViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0971956B6829952E1F6C72361D890154 /* DUYTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D66E8A7282687E1A12CF7FAA4BADD755 /* DUYTableviewCell.swift */,
+				882C80068BA788919395E2B386F0D211 /* DUYTableviewCellViewModel.swift */,
+				6AE0182D552DC08507B3844E94B05D37 /* DUYTableViewController.swift */,
+				9052D0923C79D0D3A95E504B472DC147 /* Pod */,
+				3B5AD80FC973F01657CC66F23CB78FF0 /* Support Files */,
+			);
+			name = DUYTableViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3B5AD80FC973F01657CC66F23CB78FF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83172B31CFEC7F0DA6B04C20051790E4 /* DUYTableViewController.modulemap */,
+				CCB22C4A5D4788E2AE3EF027445AD3A1 /* DUYTableViewController.xcconfig */,
+				7BA66EB867E14FD6B13E7543A9A9C51B /* DUYTableViewController-dummy.m */,
+				3ED1965B774379EC61C35A8E175DAEEC /* DUYTableViewController-Info.plist */,
+				C134E90C2E9DD9B21915B10610FFE659 /* DUYTableViewController-prefix.pch */,
+				73750F35F3D4A7705DB6AA17B8B6C4B6 /* DUYTableViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DUYTableViewController";
+			sourceTree = "<group>";
+		};
+		47F6F4EF123BAC55C84619C71B442BF2 /* Pods-DUYTableViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				682B5BB6AE90415AA76194F227F15B20 /* Pods-DUYTableViewController_Example.modulemap */,
+				4A68CF14CA0B3A6550446C7F0F7C6D62 /* Pods-DUYTableViewController_Example-acknowledgements.markdown */,
+				DB794D150B979F00EC92F8260F49E776 /* Pods-DUYTableViewController_Example-acknowledgements.plist */,
+				07CE33E467D53C58A230035C3019F1D4 /* Pods-DUYTableViewController_Example-dummy.m */,
+				7AD6B3FC4EB229189C035950C5C59F75 /* Pods-DUYTableViewController_Example-frameworks.sh */,
+				AFDBAE229C4EB879EA9353B544ACDA67 /* Pods-DUYTableViewController_Example-Info.plist */,
+				FB2A6D19EB20AD1088E58848940FE77C /* Pods-DUYTableViewController_Example-umbrella.h */,
+				95561769DBE5DE9DCF89B8CC57913EBE /* Pods-DUYTableViewController_Example.debug.xcconfig */,
+				BAE426CC3F73D1A0B872E7BB2FB57ABE /* Pods-DUYTableViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-DUYTableViewController_Example";
+			path = "Target Support Files/Pods-DUYTableViewController_Example";
+			sourceTree = "<group>";
+		};
+		88F0A6C187E179222359BC0E50C38DFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F6F4EF123BAC55C84619C71B442BF2 /* Pods-DUYTableViewController_Example */,
+				EA064BECECA4C2E2B4021E9CA735B014 /* Pods-DUYTableViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9052D0923C79D0D3A95E504B472DC147 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A1C227E38D1E8679A79AFEE54D76E481 /* DUYTableViewController.podspec */,
+				15D6AEDDFB09727FEE776C5EC8E56DAC /* LICENSE */,
+				C199E15093C736907E82AA779550FD6A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F9A5EFCDCBBA00BDD25731C8A97D1E4F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				01F2D990181D4E3AAAC41788CF93FC50 /* Products */,
+				88F0A6C187E179222359BC0E50C38DFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA064BECECA4C2E2B4021E9CA735B014 /* Pods-DUYTableViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5097648DB35A4D6794681F4CFF46560 /* Pods-DUYTableViewController_Tests.modulemap */,
+				C2183342593E79B1EB3A2A218FB37BAE /* Pods-DUYTableViewController_Tests-acknowledgements.markdown */,
+				F0BEF0150B4978AAF22D53231095DD56 /* Pods-DUYTableViewController_Tests-acknowledgements.plist */,
+				5C11816C6FEE16239AAD9503D441A947 /* Pods-DUYTableViewController_Tests-dummy.m */,
+				F1CAAB917F30BDD3BB4FDE4B8B26E022 /* Pods-DUYTableViewController_Tests-Info.plist */,
+				864174247B87A4EEB5B386C87C0EC0DD /* Pods-DUYTableViewController_Tests-umbrella.h */,
+				3E6CC5234B3617EF05D017DF567D6D8A /* Pods-DUYTableViewController_Tests.debug.xcconfig */,
+				9F73823E5A08CBAC4A363A6AEF3CDB87 /* Pods-DUYTableViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-DUYTableViewController_Tests";
+			path = "Target Support Files/Pods-DUYTableViewController_Tests";
+			sourceTree = "<group>";
+		};
+		F9A5EFCDCBBA00BDD25731C8A97D1E4F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0971956B6829952E1F6C72361D890154 /* DUYTableViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C70B2F844909925E35283CCE33792EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F92BE4C3422F018C6713C7BE4B7FD5 /* Pods-DUYTableViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FADA00DCD8E3B7DE19AB5FF8492173 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A52DEB879F69407A9FB72748AE1F42 /* DUYTableViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40586ED112E0997A02EA3BE273C5C02E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FA555D116DF3B160F8AE919D6B6AD1 /* Pods-DUYTableViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		350C1F10BBF839C483A3FBE4C6CC4D04 /* Pods-DUYTableViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD08A6669BD79B3778F1BFC6F40FC56 /* Build configuration list for PBXNativeTarget "Pods-DUYTableViewController_Example" */;
+			buildPhases = (
+				2C70B2F844909925E35283CCE33792EA /* Headers */,
+				64F61ADE0E956E92A996A1C3898C802C /* Sources */,
+				DE81C4642CCCFA3F1A3B99709ECFCDDF /* Frameworks */,
+				57D223F7D18D7BE0B956EA1397CF7AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA374204637D06B437DFC8ACAF92989E /* PBXTargetDependency */,
+			);
+			name = "Pods-DUYTableViewController_Example";
+			productName = "Pods-DUYTableViewController_Example";
+			productReference = 2643806ACB5251A497281FF992132BD9 /* Pods_DUYTableViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		828184913D150B7CA3EEE16E91F325C9 /* DUYTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9ECD3C39AA34484006F8051A3168A02 /* Build configuration list for PBXNativeTarget "DUYTableViewController" */;
+			buildPhases = (
+				37FADA00DCD8E3B7DE19AB5FF8492173 /* Headers */,
+				6788F498881692AEBAD40FFA12F5A442 /* Sources */,
+				BCBB676426BBB8037D1C7E103411B9F8 /* Frameworks */,
+				811FDE335066F9B8B7BEB18AF28BE959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DUYTableViewController;
+			productName = DUYTableViewController;
+			productReference = 3D4E74A41C760BEB509B433ECF949E36 /* DUYTableViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F83966340B259315F57267A51DDF1D0F /* Pods-DUYTableViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0525AA4105986340FAF54CEC5CA0627 /* Build configuration list for PBXNativeTarget "Pods-DUYTableViewController_Tests" */;
+			buildPhases = (
+				40586ED112E0997A02EA3BE273C5C02E /* Headers */,
+				59911FC0D380E323AB31A34645EDE5F6 /* Sources */,
+				5423B2D268AECA83E0148821A61DF5C9 /* Frameworks */,
+				3C87B5B47ED8EF068F24A03D0D769806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FED116AE6AB5DB973FF3CF93D149880 /* PBXTargetDependency */,
+			);
+			name = "Pods-DUYTableViewController_Tests";
+			productName = "Pods-DUYTableViewController_Tests";
+			productReference = B1185EB2FE5C5A22F2026807E80F70CA /* Pods_DUYTableViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 01F2D990181D4E3AAAC41788CF93FC50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828184913D150B7CA3EEE16E91F325C9 /* DUYTableViewController */,
+				350C1F10BBF839C483A3FBE4C6CC4D04 /* Pods-DUYTableViewController_Example */,
+				F83966340B259315F57267A51DDF1D0F /* Pods-DUYTableViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C87B5B47ED8EF068F24A03D0D769806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D223F7D18D7BE0B956EA1397CF7AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811FDE335066F9B8B7BEB18AF28BE959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59911FC0D380E323AB31A34645EDE5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AEF4C14398A9C5260BA5A40CD8014F /* Pods-DUYTableViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F61ADE0E956E92A996A1C3898C802C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32399899AAA6924C4D68667F5111CF72 /* Pods-DUYTableViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6788F498881692AEBAD40FFA12F5A442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624FD832755C7EE8346094564F17BF92 /* DUYTableviewCell.swift in Sources */,
+				0BE100601E8F12E26890B9AA3A444513 /* DUYTableviewCellViewModel.swift in Sources */,
+				29D2829645FE9D4AB284C056B53CBC7A /* DUYTableViewController-dummy.m in Sources */,
+				79646D48A2D979E1D8AB275B62158DC5 /* DUYTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FED116AE6AB5DB973FF3CF93D149880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DUYTableViewController_Example";
+			target = 350C1F10BBF839C483A3FBE4C6CC4D04 /* Pods-DUYTableViewController_Example */;
+			targetProxy = 264C4FC21BF26A422EB0F13BD10E682D /* PBXContainerItemProxy */;
+		};
+		FA374204637D06B437DFC8ACAF92989E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DUYTableViewController;
+			target = 828184913D150B7CA3EEE16E91F325C9 /* DUYTableViewController */;
+			targetProxy = C3341BF224511AB3C069BED8BD86A2C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		44D7B9308F3A2DA2D7F51C3DECA3C8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB22C4A5D4788E2AE3EF027445AD3A1 /* DUYTableViewController.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DUYTableViewController/DUYTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DUYTableViewController/DUYTableViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DUYTableViewController/DUYTableViewController.modulemap";
+				PRODUCT_MODULE_NAME = DUYTableViewController;
+				PRODUCT_NAME = DUYTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C5DC426F0805EF6017BE4086F915E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F73823E5A08CBAC4A363A6AEF3CDB87 /* Pods-DUYTableViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DUYTableViewController_Tests/Pods-DUYTableViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DUYTableViewController_Tests/Pods-DUYTableViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71089F769EB87AF5C5F0261049862875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE426CC3F73D1A0B872E7BB2FB57ABE /* Pods-DUYTableViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DUYTableViewController_Example/Pods-DUYTableViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DUYTableViewController_Example/Pods-DUYTableViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73D80B3C2DB1B0FD5B0FE37D33C4EAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB22C4A5D4788E2AE3EF027445AD3A1 /* DUYTableViewController.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DUYTableViewController/DUYTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DUYTableViewController/DUYTableViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DUYTableViewController/DUYTableViewController.modulemap";
+				PRODUCT_MODULE_NAME = DUYTableViewController;
+				PRODUCT_NAME = DUYTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A281F98CFEF1C3470AB46EED5F7079FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95561769DBE5DE9DCF89B8CC57913EBE /* Pods-DUYTableViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DUYTableViewController_Example/Pods-DUYTableViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DUYTableViewController_Example/Pods-DUYTableViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF3D0400A51B25B5B44BC751F5F64099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6CC5234B3617EF05D017DF567D6D8A /* Pods-DUYTableViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DUYTableViewController_Tests/Pods-DUYTableViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DUYTableViewController_Tests/Pods-DUYTableViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD08A6669BD79B3778F1BFC6F40FC56 /* Build configuration list for PBXNativeTarget "Pods-DUYTableViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A281F98CFEF1C3470AB46EED5F7079FE /* Debug */,
+				71089F769EB87AF5C5F0261049862875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9ECD3C39AA34484006F8051A3168A02 /* Build configuration list for PBXNativeTarget "DUYTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73D80B3C2DB1B0FD5B0FE37D33C4EAA8 /* Debug */,
+				44D7B9308F3A2DA2D7F51C3DECA3C8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0525AA4105986340FAF54CEC5CA0627 /* Build configuration list for PBXNativeTarget "Pods-DUYTableViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3D0400A51B25B5B44BC751F5F64099 /* Debug */,
+				6C5DC426F0805EF6017BE4086F915E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
