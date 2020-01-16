@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DUYTableViewController_Example' do
+  pod 'DUYTableViewController', :path => '../'
+
+  target 'DUYTableViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
