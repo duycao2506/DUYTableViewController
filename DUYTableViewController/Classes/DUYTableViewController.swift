@@ -61,27 +61,27 @@ open class DUYTableViewController: UIViewController, UITableViewDelegate, UITabl
     
     
     
-    internal func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let cellViewModel = self.tableViewModel.getCellViewModelAt(section: indexPath.section, row: indexPath.row)
         return cellViewModel.cellHeight
     }
     
-    internal func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+    public func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         let cellViewModel = self.tableViewModel.getCellViewModelAt(section: indexPath.section, row: indexPath.row)
         return cellViewModel.estimatedCellHeight
     }
     
-    internal func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+    public func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         let cellViewModel = self.tableViewModel.getCellViewModelAt(section: indexPath.section, row: indexPath.row)
         return cellViewModel.isEditable
     }
     
-    internal func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         var vm = self.tableViewModel.getCellViewModelAt(section: indexPath.section, row: indexPath.row)
         vm.estimatedCellHeight = cell.frame.size.height
     }
     
-    internal func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+    public func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let cellViewModel = self.tableViewModel.getCellViewModelAt(section: indexPath.section, row: indexPath.row)
         var actionContextual : [UIContextualAction] = []
         for actionComp in cellViewModel.swipeRightActions {
@@ -101,7 +101,7 @@ open class DUYTableViewController: UIViewController, UITableViewDelegate, UITabl
         return tableViewModel.getSectionViewModelAt(index: section).cellViewModelArray.count
     }
     
-    private func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let vm = self.tableViewModel.getCellViewModelAt(section: indexPath.section, row: indexPath.row)
         vm.onTap?(vm)
