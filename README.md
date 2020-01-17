@@ -22,7 +22,7 @@ pod 'DUYTableViewController'
 
 ## Author
 
-duycao2506, le.duy@deskera.com
+duycao2506, duyckhl@gmail.com
 
 ## License
 
