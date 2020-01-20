@@ -147,7 +147,7 @@ Create your cells needed for the tableView and let it inherit DUYTableViewCell, 
 ### Step 6: 
 Check your results, here is my sample result from the example project
 
-<img src="./demo.png" width="40%" height="40%"> <img src="./demo2.png" width="40%" height="40%">
+<img src="https://github.com/duycao2506/DUYTableViewController/blob/master/demo.png" width="40%" height="40%"> <img src="https://github.com/duycao2506/DUYTableViewController/blob/master/demo2.png" width="40%" height="40%">
 
 ## Author
 
