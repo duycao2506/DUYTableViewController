@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/duycao2506/DUYTableViewController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/duycao2506/DUYTableViewController/blob/master/demo2.png', 'https://github.com/duycao2506/DUYTableViewController/blob/master/demo.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'duycao2506' => 'duyckhl@gmail.com' }
   s.source           = { :git => 'https://github.com/duycao2506/DUYTableViewController.git', :tag => s.version.to_s }
