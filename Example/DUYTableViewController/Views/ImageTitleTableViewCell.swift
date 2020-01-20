@@ -9,7 +9,7 @@
 import UIKit
 import DUYTableViewController
 
-class DUYImageTableViewCell: DUYTableviewCell {
+class ImageTitleTableViewCell: DUYTableviewCell {
 
     @IBOutlet weak var lblSubtitle: UILabel!
     @IBOutlet weak var lblTitle: UILabel!
@@ -19,6 +19,8 @@ class DUYImageTableViewCell: DUYTableviewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.imgView.layer.cornerRadius = 24.0
+        self.imgView.layer.masksToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -28,9 +30,10 @@ class DUYImageTableViewCell: DUYTableviewCell {
     }
     
     override func setData(viewModel: DUYTableviewCellViewModelProtocol) {
-        guard let viewModel = viewModel as? DUYTableViewCellViewModel else {return}
+        guard let viewModel = viewModel as? ImageTitleCellViewModel else {return}
         self.lblTitle.text = viewModel.mainTitle
         self.lblSubtitle.text = viewModel.subTitle
+        self.imgView.image = viewModel.image
     }
     
 }

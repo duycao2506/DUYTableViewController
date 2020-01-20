@@ -45,14 +45,16 @@ public protocol DUYTableviewCellViewModelProtocol {
     func insertLeftAction(atIndex: Int,  actionComp: DUYCellSwipeActionComponent)
     
     
-    func setIdentifier(id : String)->DUYTableviewCellViewModelProtocol
+    
+    func setIdentifierCell<T : DUYTableviewCell>(class : T.Type) -> DUYTableviewCellViewModelProtocol
     func setCellHeight(h : CGFloat) -> DUYTableviewCellViewModelProtocol
     func setTapAction(action :  @escaping DUYCellAction) -> DUYTableviewCellViewModelProtocol
     func setDataChangeAction(action :  @escaping DUYCellAction) -> DUYTableviewCellViewModelProtocol
 }
 
 /// Tableview Cell Level Class
-open class DUYTableViewCellViewModel : DUYTableviewCellViewModelProtocol{
+open class DUYTableViewCellViewModel : NSObject, DUYTableviewCellViewModelProtocol{
+    
     weak open var tableViewModel: DUYTableviewViewModelProtocol!
     
     weak open var sectionViewModel: DUYTableViewSectionViewModelProtocol!
@@ -81,11 +83,12 @@ open class DUYTableViewCellViewModel : DUYTableviewCellViewModelProtocol{
     open var mainTitle : String = ""
     open var subTitle : String = ""
     
-    private init(){
+    private override init(){
         
     }
     
     public init(sectionViewModel : DUYTableViewSectionViewModelProtocol, tableViewModel : DUYTableviewViewModelProtocol, section : Int, row : Int) {
+        super.init()
         self.sectionViewModel = sectionViewModel
         self.tableViewModel = tableViewModel
         self.tableViewModel.onConfiguringCell?(self,section,row)
@@ -103,10 +106,13 @@ open class DUYTableViewCellViewModel : DUYTableviewCellViewModelProtocol{
         self.swipeLeftActions.insert(actionComp, at: atIndex)
     }
     
-    open func setIdentifier(id: String) -> DUYTableviewCellViewModelProtocol {
-        self.identifier = id
+    
+    
+    open func setIdentifierCell<T>(class: T.Type) -> DUYTableviewCellViewModelProtocol where T : DUYTableviewCell {
+        self.identifier = String.init(describing: T.self)
         return self
     }
+    
     
     open func setCellHeight(h: CGFloat) -> DUYTableviewCellViewModelProtocol {
         self.cellHeight = h
@@ -143,7 +149,7 @@ public protocol DUYTableViewSectionViewModelProtocol : class {
 }
 
 /// TableView Section Level Class
-open class DUYTableViewSectionViewModel : DUYTableViewSectionViewModelProtocol {
+open class DUYTableViewSectionViewModel : NSObject, DUYTableViewSectionViewModelProtocol {
     open weak var tableViewModel: DUYTableviewViewModelProtocol!
     
     open var cellViewModelArray: [DUYTableviewCellViewModelProtocol] = [] {
@@ -161,6 +167,7 @@ open class DUYTableViewSectionViewModel : DUYTableViewSectionViewModelProtocol {
     open var mainTitle: String = ""
     
     init(tableViewModel : DUYTableviewViewModelProtocol, section : Int = 0) {
+        super.init()
         self.tableViewModel = tableViewModel
         self.onDataChanged = {
             [weak self] array in
@@ -202,7 +209,7 @@ public protocol DUYTableviewViewModelProtocol : class {
 
 
 /// TableView Class Level
-open class DUYTableviewViewModel : DUYTableviewViewModelProtocol {
+open class DUYTableviewViewModel : NSObject, DUYTableviewViewModelProtocol {
     
     open var onConfiguringCell: ((DUYTableviewCellViewModelProtocol, Int, Int) -> Void)?
     
@@ -217,7 +224,8 @@ open class DUYTableviewViewModel : DUYTableviewViewModelProtocol {
         }
     }
     
-    public init() {
+    public override init() {
+        super.init()
         let oneSection = DUYTableViewSectionViewModel.init(tableViewModel: self,section: 0)
         self.insertSection(index: 0, viewModel: oneSection)
     }

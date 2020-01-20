@@ -19,7 +19,8 @@ class TestTableViewController: DUYTableViewController {
     
     override func getRegisteredCells() -> [TableCellRegistration<DUYTableviewCell>] {
         let results : [TableCellRegistration<DUYTableviewCell>] = [
-            (classType : DUYImageTableViewCell.self, isFromXib: true)
+            (classType : ImageTitleTableViewCell.self, isFromXib: true),
+            (classType : ImageHorizontalListTableViewCell.self, isFromXib: true)
         ]
         return results
     }
@@ -40,11 +41,16 @@ class TestTableViewController: DUYTableViewController {
     
     override func configureCellViewModel(viewModel: DUYTableviewCellViewModelProtocol, section: Int, row: Int) {
         super.configureCellViewModel(viewModel: viewModel, section: section, row: row)
-        if row % 2 == 0 {
-            var vm = viewModel.setIdentifier(id: String.init(describing: DUYImageTableViewCell.self))
-                .setCellHeight(h: 250.0)
+        switch viewModel {
+        case let someVm as ImageTitleCellViewModel:
+            let _ = someVm
+                .setIdentifierCell(class: ImageTitleTableViewCell.self)
+                .setCellHeight(h: 223)
+        default:
+            return
         }
     }
+    
     
 
     /*
